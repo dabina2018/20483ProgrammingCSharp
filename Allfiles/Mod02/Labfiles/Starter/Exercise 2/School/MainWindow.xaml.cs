@@ -94,7 +94,6 @@ namespace School
             if (response == MessageBoxResult.Yes)
             {
                 this.schoolContext.Students.DeleteObject(student);
-
                 // Enable saving (changes are not made permanent until they are written back to the database)
                 saveChanges.IsEnabled = true;
             }
