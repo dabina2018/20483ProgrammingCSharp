@@ -17,7 +17,7 @@ namespace GradesTest
         public void TestValidGrade()
         {
             GradesPrototype.Data.Grade grade = new GradesPrototype.Data.Grade(1, "01/01/2012", "Math", "A-", "Very good");
-            Assert.AreEqual(grade.AssessmentDate, "01/01/2012");
+            Assert.AreEqual(grade.AssessmentDate, "1/1/2012");
             Assert.AreEqual(grade.SubjectName, "Math");
             Assert.AreEqual(grade.Assessment, "A-");
         }
