@@ -7,7 +7,9 @@
              >
 
     <!-- TODO: Exercise 3: Task 2a. Add an instance of the ImageNameConverter class as a resource to the view -->
-    
+    <UserControl.Resources>
+        <local:ImageNameConverter x:Key="ImageNameConverter"/>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
